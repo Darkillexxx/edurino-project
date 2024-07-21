@@ -1,0 +1,110 @@
+.game-selection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    background: url('../images/WorkedImg.png') no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 10px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.info {
+    max-width: 500px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.info h2 {
+    margin-bottom: 10px;
+}
+
+.info .wide-text {
+    white-space: nowrap;
+}
+
+.info p.small-text {
+    font-size: 1em;
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info ul li {
+    margin-bottom: 10px;
+}
+
+.games-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.games-title {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+
+.game-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.left-monster {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 250px;
+    height: auto;
+}
+
+.right-monster {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    width: 250px;
+    height: auto;
+}
